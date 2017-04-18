@@ -19,7 +19,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String DB_URL = "https://raw.githubusercontent.com/fagossa/JapaneseVocabulary/master/data.json";
+    public static final String DB_URL = "https://raw.githubusercontent.com/fagossa/JapaneseVocabulary/data/data.json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
