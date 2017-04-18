@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fagossa.japanesevocabulary.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="undefined"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/Option1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="First option"
+        android:onClick="selfDestruct"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/Option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="selfDestruct"
+        android:text="Second option"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/Option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="selfDestruct"
+        android:text="Third option"
+        android:layout_gravity="center" />
+
+</LinearLayout>
